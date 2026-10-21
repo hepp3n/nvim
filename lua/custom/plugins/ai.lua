@@ -38,3 +38,12 @@ require('nvim-treesitter')
     'yaml',
   }, { summary = true, max_jobs = 10 })
   :wait(1800000)
+
+vim.pack.add { gh "jim-at-jibba/nvim-stride" }
+
+require("stride").setup({
+  -- API Configuration
+  api_key = "asdfk",
+  endpoint = "http://localhost:13305/api/v1/chat/completions",
+  model = "Qwen2.5-3B-Instruct-GGUF-Q4_K_M",
+})
