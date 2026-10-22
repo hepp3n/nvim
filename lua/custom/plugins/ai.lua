@@ -68,7 +68,7 @@ require('minuet').setup {
   provider_options = {
     openai_compatible = {
       api_key = 'TERM',
-      model = 'Qwen2.5-Coder-1.5B-Instruct-GGUF-Q4_K_M',
+      model = 'Qwen2.5-Coder-3B-Instruct-GGUF-Q4_K_M',
       end_point = 'http://localhost:13305/v1/chat/completions',
       optional = {
         max_completion_tokens = 128,
@@ -84,7 +84,7 @@ require('minuet').setup {
     provider_options = {
       openai_compatible = {
         api_key = 'TERM',
-        model = 'Qwen2.5-Coder-1.5B-Instruct-GGUF-Q4_K_M',
+        model = 'Qwen2.5-Coder-3B-Instruct-GGUF-Q4_K_M',
         optional = {
           max_completion_tokens = 128,
           -- for thinking models
