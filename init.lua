@@ -423,12 +423,12 @@ do
   -- change the command under that to load whatever the name of that colorscheme is.
   --
   -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
-  vim.pack.add { gh 'maxmx03/solarized.nvim' }
+  vim.pack.add { gh 'blazkowolf/gruber-darker.nvim' }
   ---@diagnostic disable-next-line: missing-fields
-  require('solarized').setup {}
+  require('gruber-darker').setup {}
 
   -- Load the colorscheme here.
-  vim.cmd.colorscheme 'solarized'
+  vim.cmd.colorscheme 'gruber-darker'
 
   -- Highlight todo, notes, etc in comments
   vim.pack.add { gh 'folke/todo-comments.nvim' }
